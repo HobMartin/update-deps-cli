@@ -1,0 +1,23 @@
+{
+  "name": "dependency-update",
+  "version": "1.0.0",
+  "description": "Script for update package.json and open PR on BitBucket",
+  "main": "index.js",
+  "author": "Ivan Derda",
+  "license": "MIT",
+  "private": false,
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "bitbucket": "^2.11.0",
+    "chalk": "^4.1.2",
+    "cli-loading-animation": "^1.0.6",
+    "cli-spinners": "^2.7.0",
+    "enquirer": "^2.3.6",
+    "yargs": "^17.7.1"
+  },
+  "devDependencies": {
+    "dotenv": "^16.0.3"
+  }
+}
